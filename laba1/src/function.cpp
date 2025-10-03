@@ -1,10 +1,10 @@
 #include "../include/header.h"
 
-int nod(int num1, int num2) {
-    while (num2 != 0) {
-        int temporary_num = num2;
-        num2 = num1 % num2;
-        num1 = temporary_num;
+int nod(int num_1, int num_2) {
+    while (num_2 != 0) {
+        int temporary_num = num_2;
+        num_2 = num_1 % num_2;
+        num_1 = temporary_num;
     }
-    return num1;
+    return num_1;
 }
