@@ -1,5 +1,5 @@
-#include <string>
-
 #pragma once
 
-int nod(int gg,int ); 
+#include <string>
+
+int nod(int num_1,int num_2); 
